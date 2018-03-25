@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-Media Queries Added to my current Portfolio
+# rsami23.github.io
+My first Portfolio Site
