@@ -136,8 +136,7 @@ p {
 
 .form {
    
-    width: 550px;
-    height: 500px;
+    width: 100%;
     color:#777777;
     border: solid #777777 1px;
     padding: 20px;
@@ -181,6 +180,12 @@ p {
     z-index: 2;
 }
 
+input {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
 .title {
     color: white;
     background-color: #4aaaa5;
@@ -188,4 +193,110 @@ p {
     width: 350px;
     padding: 10px 0;
     bottom: 15%;
+}
+
+@media (max-width:640px){
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+
+    .name {
+        width: 100%;
+    }
+
+    .links {
+        width: 100%;
+        background: #fff;
+        text-align: center;
+    }
+
+    .links a {
+        padding: 0 50px;
+    }
+
+    .social {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .form {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .aboutme {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px){
+    .container {
+      
+        margin: 20px auto;
+    }
+    
+
+    .name {
+        max-width: 640px;
+    }
+
+    .links {
+        width: 100%;
+        background: #fff;
+        text-align: center;
+    }
+
+    .links a {
+        padding: 0 50px;
+    }
+
+    .social {
+        width: 100%;
+        margin: 20px auto;
+        padding-left: 20px;
+    }
+
+    .form {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width:980px){
+    
+    .container {
+      
+        margin: 20px auto;
+    }
+    
+
+    .name {
+        
+    }
+
+    .links {
+        
+        background: #fff;
+        text-align: center;
+        
+    }
+
+    .links a {
+        padding: 0 50px;
+    }
+
+    .social {
+        width: 100%;
+        margin: 20px auto;
+        padding-left: 20px;
+    }
+
+    .form {
+        width: 80%;
+        margin: 0 auto;
+    }
+
 }
